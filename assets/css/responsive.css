@@ -1,0 +1,267 @@
+/*extra large device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Banner area */
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .slide-text h1 {
+    font-size: 40px;
+  }
+  .banner-area .slide-text h2 {
+    font-size: 70px;
+    margin: 40px 0;
+  }
+}
+
+/* medium device */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Banner area */
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .slide-text h1 {
+    font-size: 35px;
+  }
+  .banner-area .slide-text h2 {
+    font-size: 60px;
+    margin: 40px 0;
+  }
+
+  /* Food area */
+  .food-banner {
+    text-align: center;
+  }
+  .fbanner-text {
+    margin-right: 0px;
+  }
+  .fbanner-text h1 {
+    font-size: 45px;
+  }
+  .fbanner-img {
+    margin-top: 25px;
+  }
+  /* Footer area */
+  .footer-top {
+    text-align: center;
+  }
+  .footer-link h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .footer-bottom-text a {
+    font-weight: 600;
+  }
+}
+
+/* small device */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Banner area */
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .slide-text h1 {
+    font-size: 30px;
+  }
+  .banner-area .slide-text h2 {
+    font-size: 40px;
+    margin: 25px 0;
+  }
+  .banner-area .shop-btn {
+    padding: 7px 16px;
+    margin-top: 20px;
+  }
+  /* Food area */
+  .food-banner {
+    text-align: center;
+  }
+  .fbanner-text {
+    margin-right: 0px;
+  }
+  .fbanner-text h1 {
+    font-size: 45px;
+  }
+  .fbanner-img {
+    margin-top: 25px;
+  }
+
+  /* Review area */
+  .review-area .section-heading h1 {
+    font-size: 35px;
+  }
+
+  /* Contact area */
+  .contact-area .section-heading h1 {
+    font-size: 45px;
+  }
+  .contact-content form {
+    display: grid;
+    grid-template-areas:
+      "f f"
+      "l l"
+      "e e"
+      "p p"
+      "m m"
+      "s s";
+  }
+
+  /* Footer area */
+  .footer-top {
+    text-align: center;
+  }
+  .footer-link h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .footer-bottom-text a {
+    font-weight: 600;
+  }
+}
+
+/* Extra small device */
+@media (min-width: 321px) and (max-width: 575px) {
+  /* Banner area */
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .slide-text h1 {
+    font-size: 20px;
+  }
+  .banner-area .slide-text h2 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .banner-area .shop-btn {
+    padding: 7px 16px;
+    margin-top: 20px;
+  }
+  /* Food area */
+  .food-banner {
+    text-align: center;
+  }
+  .fbanner-text {
+    margin-right: 0px;
+    order: 1;
+  }
+  .fbanner-text h1 {
+    font-size: 40px;
+  }
+  .fbanner-img {
+    order: -1;
+    margin-top: 25px;
+  }
+
+  /* Review area */
+  .review-area .section-heading h1 {
+    font-size: 35px;
+  }
+
+  /* Contact area */
+  .contact-area .section-heading h1 {
+    font-size: 40px;
+  }
+  .contact-content form {
+    display: grid;
+    grid-template-areas:
+      "f f"
+      "l l"
+      "e e"
+      "p p"
+      "m m"
+      "s s";
+  }
+
+  /* Footer area */
+  .footer-top {
+    text-align: center;
+  }
+  .footer-link h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .footer-bottom-text a {
+    font-weight: 600;
+  }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  /* Banner area */
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .slide-text h1 {
+    font-size: 15px;
+  }
+  .banner-area .slide-text h2 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .banner-area .shop-btn {
+    padding: 5px 15px;
+  }
+  /* Gallary area */
+  .gallary-area .section-heading h5 {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+  /* Food area */
+  .section-heading h1 {
+    font-size: 35px;
+  }
+  .food-banner {
+    text-align: center;
+  }
+  .fbanner-text {
+    margin-right: 0px;
+    order: 1;
+  }
+  .fbanner-text h1 {
+    font-size: 30px;
+  }
+  .fbanner-img {
+    order: -1;
+    margin-top: 25px;
+  }
+
+  /* review area */
+  .review-area .section-heading h1 {
+    font-size: 40px;
+  }
+  .review-area .section-heading h5 {
+    font-size: 18px;
+  }
+  /* contact area */
+  .contact-area .section-heading h1 {
+    font-size: 40px;
+  }
+  .contact-content form {
+    display: grid;
+    grid-template-areas:
+      "f f"
+      "l l"
+      "e e"
+      "p p"
+      "m m"
+      "s s";
+  }
+  .footer-top {
+    text-align: center;
+  }
+  .footer-link h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .footer-bottom-text a {
+    font-weight: 600;
+  }
+}
